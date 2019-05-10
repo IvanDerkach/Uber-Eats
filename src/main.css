@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+@import "common.blocks/header/header.css";
+@import "common.blocks/main-section/main-section.css";
+@import "variables.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
