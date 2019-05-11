@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
-@import "common.blocks/header/header.css";
-@import "common.blocks/main-section/main-section.css";
+@import "components/header.css";
+@import "components/main-section.css";
+@import "components/card.css";
+@import "components/footer.css";
 @import "variables.css";
 
 * {

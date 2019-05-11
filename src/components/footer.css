@@ -1,0 +1,11 @@
+.footer {
+  height: 116px;
+  background: var(--btn-color);
+  display: flex;
+  justify-content: center;
+}
+
+.footer__wrapper {
+  width: 1124px;
+  margin-top: 50px;
+}

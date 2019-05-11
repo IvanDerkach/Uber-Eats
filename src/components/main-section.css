@@ -7,6 +7,8 @@
 .cards_wrapper {
   display: flex;
   flex-direction: column;
+  width: 956px;
+  justify-content: center;
 }
 
 .search {
@@ -28,7 +30,7 @@
 }
 
 .search__label:before {
-  content: url("../../img/search.svg");
+  content: url("../img/search.svg");
   width: 22px;
   height: 22px;
   position: absolute;
@@ -50,4 +52,28 @@
   color: var(--font-color);
   align-self: flex-start;
   margin: 56px 0 16px;
+}
+
+.cards__first-line {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0 0 126px;
+  justify-content: space-between;
+}
+
+.cards__second-line {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0 0 126px;
+  justify-content: space-between;
+}
+
+.cards__third-line {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0 0 190px;
+  justify-content: space-between;
 }
