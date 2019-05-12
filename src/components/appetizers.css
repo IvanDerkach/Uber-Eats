@@ -1,0 +1,31 @@
+.appetizer__wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.appetizers {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 956px;
+}
+
+.appetizers__title {
+  font-family: var(--main-font);
+  font-size: 22px;
+  line-height: 34px;
+  color: var(--font-color);
+  align-self: flex-start;
+  margin: 56px 0 16px;
+}
+
+.appetizers__first-line,
+.appetizers__second-line,
+.appetizers__third-line {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  text-decoration: none;
+}

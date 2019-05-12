@@ -3,6 +3,10 @@
 @import "components/main-section.css";
 @import "components/card.css";
 @import "components/footer.css";
+@import "components/restaurant.css";
+@import "components/restaurant-menu.css";
+@import "components/appetizers.css";
+@import "components/appetizers_card.css";
 @import "variables.css";
 
 body {
