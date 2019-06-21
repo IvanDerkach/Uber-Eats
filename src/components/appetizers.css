@@ -1,7 +1,7 @@
 .appetizer__wrapper {
   display: flex;
   justify-content: center;
-  margin-bottom: 80px;
+  margin-bottom: 48px;
 }
 
 .appetizers {
@@ -20,11 +20,10 @@
   margin: 56px 0 16px;
 }
 
-.appetizers__first-line,
-.appetizers__second-line,
-.appetizers__third-line {
+.appetizers__menu {
   padding: 0;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   list-style: none;
   text-decoration: none;

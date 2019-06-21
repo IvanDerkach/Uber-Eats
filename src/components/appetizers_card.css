@@ -1,9 +1,10 @@
-.menu-card {
+.appetizers__menu-card {
   width: 470px;
   height: 160px;
+  padding: 0 0 32px;
 }
 
-.menu-link {
+.appetizers__menu-link {
   width: 470px;
   height: 160px;
   border: 1px solid rgba(117, 117, 117, 0.2);
